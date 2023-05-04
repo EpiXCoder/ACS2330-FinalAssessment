@@ -1,0 +1,147 @@
+/* Use a high-contrast color scheme */
+body {
+    color: #000;
+    background-color: #fff;
+  }
+  
+  /* Use focus styles for keyboard users */
+  :focus {
+    outline: 2px solid blue;
+  }
+  
+  /* Increase text contrast */
+  h1,
+  label {
+    color: #000;
+  }
+  
+  /* Use semantic tags */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .control-container {
+    width: 400px;
+    height: 400px;
+    min-width: 400px;
+    border: 1px solid black;
+  }
+  
+  .control {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  img {
+    border: 1px solid black;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+  }
+  
+  /* Use media queries to adjust layout for smaller screens */
+  @media only screen and (max-width: 800px) {
+    section {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    
+    .control-container {
+      width: 400px;
+      height: 400px;
+      min-width: 400px;
+      border: 1px solid black;
+    }
+    
+    .control {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .control span {
+      flex: 1;
+      text-align: right;
+      padding-right: 15px;
+    }
+    
+    .control input {
+      flex: 3;
+    }
+  
+    img {
+      border: 1px solid black;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: space-around;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    main {
+      width: 100%;
+      height: auto;
+      padding: 0;
+      margin: 0;
+    }
+  
+    section {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .control-container {
+      width: 70%;
+      height: auto;
+      border: none;
+    }
+    
+    .control {
+      display: flex;
+      flex-direction: column;
+      padding-top: 15px;
+      padding-bottom: 10px;
+    }
+  
+    .control span {
+      text-align: center;
+      padding-bottom: 10px;
+    }
+     
+    img {
+      width: 100%;
+      height: auto;
+      padding: 0;
+      margin: 0;
+      border: none;
+      align-self: center;
+      object-fit: cover;
+      object-position: center;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: space-around;
+    }
+  }
