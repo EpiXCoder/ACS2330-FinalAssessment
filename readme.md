@@ -1,4 +1,18 @@
-# Final Assessment
+# Final Assessment Product by Vithusha Ravirajan
+####Requirements outlined below
+
+## Desktop View
+<img width="1079" alt="Screenshot 2023-05-04 at 2 42 59 PM" src="https://user-images.githubusercontent.com/111717862/236300663-eaae317f-ad65-4a99-92ac-34f94ffecb3a.png">
+
+## Tablet View
+<img width="512" alt="Screenshot 2023-05-04 at 2 43 29 PM" src="https://user-images.githubusercontent.com/111717862/236300673-263619d7-ccb1-433b-8be3-eea5ab2a056a.png">
+
+## Mobile View
+<img width="395" alt="Screenshot 2023-05-04 at 2 44 16 PM" src="https://user-images.githubusercontent.com/111717862/236300690-616c4eed-49a6-4ea3-8c76-116effd5ee73.png">
+
+
+
+# Final Assessment Requirements
 
 We have a new image editing app. Your job is to style it, make it responsive and as accessible as you can. 
 
